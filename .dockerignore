@@ -1,0 +1,12 @@
+.github/
+.dockerignore
+.editorconfig
+.gitattributes
+.gitignore
+.prettierrc
+.git/
+.idea/
+Dockerfile
+compose.yaml
+README.md
+service-account-file.json.sample

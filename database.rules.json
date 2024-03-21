@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "messages": {
+      "123": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}

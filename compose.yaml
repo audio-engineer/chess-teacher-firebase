@@ -1,0 +1,18 @@
+services:
+  firebase:
+    image: audio-engineer/chess-teacher-firebase:latest
+    build:
+      context: .
+    user: node
+    working_dir: /home/node/$COMPOSE_PROJECT_NAME
+    environment:
+      - NODE_ENV=development
+    tty: true
+    volumes:
+      - ./:/home/node/$COMPOSE_PROJECT_NAME
+    ports:
+      - 4000:4000
+      - 4400:4400
+      - 4500:4500
+      - 9000:9000
+      - 9099:9099
