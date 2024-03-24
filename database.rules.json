@@ -2,10 +2,22 @@
   "rules": {
     ".read": false,
     ".write": false,
-    "messages": {
+    "games": {
       "123": {
-        ".read": true,
-        ".write": true
+        ".read": false,
+        ".write": false,
+        "chat": {
+          ".read": true,
+          ".write": true
+        },
+        "history": {
+          ".read": true,
+          ".write": true
+        },
+        "state": {
+          ".read": true,
+          ".write": true
+        }
       }
     }
   }
