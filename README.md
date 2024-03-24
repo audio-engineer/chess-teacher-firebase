@@ -14,3 +14,19 @@ docker build -t audio-engineer/chess-teacher-firebase:latest .
 ```shell
 docker compose up -d
 ```
+
+In the `firebase` service container:
+
+```shell
+npm install
+```
+
+In the `firebase` service container:
+
+```shell
+npm run prettier && npm run lint
+```
+
+```shell
+docker compose down
+```
