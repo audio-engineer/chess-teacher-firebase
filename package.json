@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "prettier": "prettier -c **/*.{js,ts,json,yaml,md}",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:ci": "eslint -o eslint-report.json -f json ."
   },
   "devDependencies": {
     "eslint": "^8.57.0",

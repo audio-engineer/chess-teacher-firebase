@@ -3,6 +3,7 @@ services:
     image: audio-engineer/chess-teacher-firebase:latest
     build:
       context: .
+      target: development
     user: node
     working_dir: /home/node/$COMPOSE_PROJECT_NAME
     environment:

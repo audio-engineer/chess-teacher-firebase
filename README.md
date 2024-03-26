@@ -21,7 +21,13 @@ In the `firebase` service container:
 npm install
 ```
 
-In the `firebase` service container:
+```shell
+firebase login --no-localhost
+```
+
+```shell
+firebase emulators:start
+```
 
 ```shell
 npm run prettier && npm run lint
