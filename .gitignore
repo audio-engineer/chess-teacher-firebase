@@ -67,3 +67,4 @@ node_modules/
 
 # Added by the developer team
 service-account-file.json
+eslint-report.json
