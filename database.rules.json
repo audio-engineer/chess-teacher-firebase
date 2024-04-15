@@ -2,23 +2,17 @@
   "rules": {
     ".read": false,
     ".write": false,
-    "games": {
-      "123": {
-        ".read": false,
-        ".write": false,
-        "chat": {
-          ".read": true,
-          ".write": true
-        },
-        "history": {
-          ".read": true,
-          ".write": true
-        },
-        "state": {
-          ".read": true,
-          ".write": true
-        }
-      }
+    "activeUsers": {
+      ".write": true,
+      ".read": true
+    },
+    "matches": {
+      ".read": true,
+      ".write": true
+    },
+    "messages": {
+      ".read": true,
+      ".write": true
     }
   }
 }
