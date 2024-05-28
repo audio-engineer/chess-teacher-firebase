@@ -2,10 +2,6 @@
   "rules": {
     ".read": false,
     ".write": false,
-    "activeUsers": {
-      ".write": true,
-      ".read": true
-    },
     "matches": {
       ".read": true,
       ".write": true
